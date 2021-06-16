@@ -1,5 +1,5 @@
 # Database For Chess Organization
-Business Rules: (Relationship, Attribute, Constraints, Entity) 
+#Business Rules: (Relationship, Attribute, Constraints, Entity) 
 
 Each player can only have membership of one chess club, but every chess club can have multiple players. 
 
@@ -35,9 +35,10 @@ Each tournament can have many matchup but match up can be a part of only one tou
 
  
 
-Entity: Player, Club, Category, Sponsor, Sponsorship, Game, Tournament, Ranking, Matchup, Referee. 
+#Entity: 
+Player, Club, Category, Sponsor, Sponsorship, Game, Tournament, Ranking, Matchup, Referee. 
 
-Attributes : 
+#Attributes : 
 
 Player: player_id, rank_level, player_name, fide_ranking, banned   
 
@@ -61,7 +62,7 @@ Ranking: rank_id,  total_points.
 
  
 
-Relationships: 
+#Relationships: 
 
 Players are part of a club 
 
